@@ -1,0 +1,59 @@
+.radio {
+    display: none;
+}
+.card {
+    padding: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 4px;
+    touch-action: manipulation;
+    position: relative;
+}
+.radio,
+.radio-icon {
+    width: 14px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.card-checked {
+    background-color: #e8f7f7;
+    border: 1px solid #40baba;
+}
+
+.page {
+    display: grid;
+    grid-template-columns: 500px auto;
+}
+
+.image-div {
+    background-image: url("../assets/flat-mountains.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h3 {
+    font-size: 16px !important;
+    margin-top: 16px !important;
+    font-weight: 500 !important;
+    line-height: 1.2 !important;
+}
+
+.create-button[aria-disabled=true] {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.card:focus-visible {
+    outline: 1px solid blue;
+    outline-offset: 2px;
+}

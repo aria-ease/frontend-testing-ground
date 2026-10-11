@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8"/>
+        <title>Aria-Ease Accessibility Audit Report</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <style>
+          :root{
+            --bg:#ffffff; --muted:#6b7280; --border:#e6e9ee;
+            --impact-critical: red; --impact-moderate:#fff4dd; --impact-serious:rgb(255, 123, 0);
+          }
+          body{font-family:Inter,ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial; background:var(--bg); color:#111827; padding:24px; line-height:1.4}
+          h1{margin:0 0 8px}
+          .summary{background:#f8fafc;border:1px solid var(--border);padding:12px 16px;border-radius:8px;margin-bottom:18px}
+          .summary ul{margin:6px 0 0 0;padding:0 18px}
+          .impact-summary h3{margin:12px 0 6px}
+          table{width:100%; border-collapse:collapse; margin-top:12px}
+          th,td{border:1px solid var(--border); padding:10px; text-align:left; vertical-align:top}
+          th{background:#f3f4f6; font-weight:600; position:sticky; top:0; z-index:1}
+          .nowrap{white-space:nowrap}
+          .target code{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace; white-space:pre-wrap}
+          .desc{max-width:380px}
+          tr:nth-child(even){background:#fbfbfb}
+          td.fail{color:#7b1e1e}
+          .impact.critical{background:var(--impact-critical); font-weight:600}
+          .impact.moderate{background:var(--impact-moderate); font-weight:600}
+          .impact.serious{background:var(--impact-serious); font-weight:600}
+          @media (max-width:900px){
+            .desc{max-width:200px}
+            table, thead, tbody, th, td, tr{display:block}
+            thead{display:none}
+            tr{margin-bottom:10px; border: 1px solid var(--border);}
+            td{border:1px solid var(--border); padding:6px}
+            td::before{font-weight:600; display:inline-block; width:120px}
+          }
+          .summary-list strong,
+          .summary-list li {
+            padding: 2px 4px;
+          }
+        </style>
+      </head>
+      <body>
+        <h1>Aria-Ease Accessibility Audit Report</h1>
+        <section class="summary">
+      <h2>Report summary</h2>
+      <ul>
+        <li><strong>Date:</strong> 17-06-2026 13:57:06</li>
+        <li><strong>Pages audited:</strong> 9</li>
+        <li><strong>Pages with violations:</strong> 9</li>
+        <li><strong>Total violations:</strong> 81</li>
+        <li><strong>Distinct rules:</strong> 3</li>
+      </ul>
+      <div class="impact-summary">
+        <h3>By impact</h3>
+        <ul class="summary-list">
+          <li><strong class="impact serious">serious</strong>: 81</li>
+        </ul>
+      </div>
+    </section>
+        <table>
+          <thead>
+            <tr>
+              <th>URL</th><th>Rule</th><th>Impact</th><th>Description</th><th>Target</th><th>FailureSummary</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 961433990</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 453208647</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 166697016</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 760944949 &gt; .text-align-left.m-text-align-left &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 622867932 &gt; .text-align-left.m-text-align-left &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 672870441 &gt; .text-align-left.m-text-align-left &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 354345047 &gt; .text-align-left.m-text-align-left &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 794362452 &gt; .text-align-left.m-text-align-left &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 248626097 &gt; .text-align-left &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 138214196 &gt; p &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com</td>
+            <td class="nowrap">frame-title</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure &lt;iframe&gt; and &lt;frame&gt; elements have an accessible name</td>
+            <td class="target"><code>#videobgframe-63bd85219866cc362278151f</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has no title attribute<br/>  aria-label attribute does not exist or is empty<br/>  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty<br/>  Element&#39;s default semantics were not overridden with role=&quot;none&quot; or role=&quot;presentation&quot;</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/who-we-are</td>
+            <td class="nowrap">aria-prohibited-attr</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure ARIA attributes are not prohibited for an element&#39;s role</td>
+            <td class="target"><code>.u_1827242899</code></td>
+            <td class="fail">Fix all of the following:<br/>  aria-labelledby attribute cannot be used on a a with no valid role attribute.</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/who-we-are</td>
+            <td class="nowrap">aria-prohibited-attr</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure ARIA attributes are not prohibited for an element&#39;s role</td>
+            <td class="target"><code>.u_1814356002</code></td>
+            <td class="fail">Fix all of the following:<br/>  aria-labelledby attribute cannot be used on a a with no valid role attribute.</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/who-we-are</td>
+            <td class="nowrap">aria-prohibited-attr</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure ARIA attributes are not prohibited for an element&#39;s role</td>
+            <td class="target"><code>.u_1476751572</code></td>
+            <td class="fail">Fix all of the following:<br/>  aria-labelledby attribute cannot be used on a a with no valid role attribute.</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/who-we-are</td>
+            <td class="nowrap">aria-prohibited-attr</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure ARIA attributes are not prohibited for an element&#39;s role</td>
+            <td class="target"><code>.u_1884420039</code></td>
+            <td class="fail">Fix all of the following:<br/>  aria-labelledby attribute cannot be used on a a with no valid role attribute.</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/who-we-are</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 295574049 &gt; .unav-top[role=&quot;menubar&quot;][data-auto=&quot;navigation-pages&quot;] &gt; li[aria-haspopup=&quot;true&quot;][data-sub-nav-menu=&quot;true&quot;][data-depth=&quot;0&quot;]:nth-child(1) &gt; .dmNavItemSelected.dmUDNavigationItem_010101717112[href$=&quot;who-we-are&quot;] &gt; .nav-item-text[data-link-text=&quot;About&quot;][data-auto=&quot;page-text-style&quot;]</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/who-we-are</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 961433990</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/who-we-are</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 758417655</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/who-we-are</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 392597943</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/who-we-are</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 950346470</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/who-we-are</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 219559735</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/who-we-are</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 340602459 &gt; .text</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/who-we-are</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 341215944</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/who-we-are</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 343640254</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/who-we-are</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 032773291</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/who-we-are</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>.text-align-left &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/who-we-are</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 138214196 &gt; p &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/services</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 295574049 &gt; .unav-top[role=&quot;menubar&quot;][data-auto=&quot;navigation-pages&quot;] &gt; li[aria-haspopup=&quot;true&quot;][data-sub-nav-menu=&quot;true&quot;][data-depth=&quot;0&quot;]:nth-child(2) &gt; .dmUDNavigationItem_010101325574.dmNavItemSelected[href$=&quot;services&quot;] &gt; .nav-item-text[data-link-text=&quot;Services&quot;][data-auto=&quot;page-text-style&quot;]</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/services</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 961433990</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/services</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 249400262</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/services</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>.text-align-left &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/services</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 138214196 &gt; p &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/services</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>a[data-target-page-alias=&quot;services&quot;] &gt; .nav-item-text[data-link-text=&quot;Services&quot;][data-auto=&quot;page-text-style&quot;]</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/new-patient-information</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 295574049 &gt; .unav-top[role=&quot;menubar&quot;][data-auto=&quot;navigation-pages&quot;] &gt; li[aria-haspopup=&quot;true&quot;][data-sub-nav-menu=&quot;true&quot;][data-depth=&quot;0&quot;]:nth-child(3) &gt; .dmNavItemSelected.dmUDNavigationItem_010101345121[href$=&quot;new-patient-information&quot;] &gt; .nav-item-text[data-link-text=&quot;New Patients&quot;][data-auto=&quot;page-text-style&quot;]</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/new-patient-information</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 961433990</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/new-patient-information</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 366332036</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/new-patient-information</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 658148817</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/new-patient-information</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>.text-align-left &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/new-patient-information</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 138214196 &gt; p &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/patient-resources</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 295574049 &gt; .unav-top[role=&quot;menubar&quot;][data-auto=&quot;navigation-pages&quot;] &gt; li[aria-haspopup=&quot;true&quot;][data-sub-nav-menu=&quot;true&quot;][data-depth=&quot;0&quot;]:nth-child(4) &gt; .dmNavItemSelected.dmUDNavigationItem_010101976146[href$=&quot;patient-resources&quot;] &gt; .nav-item-text[data-link-text=&quot;Patient Resources&quot;][data-auto=&quot;page-text-style&quot;]</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/patient-resources</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 961433990</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/patient-resources</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 201076952</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/patient-resources</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>.text-align-left &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/patient-resources</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 138214196 &gt; p &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/request-an-appointment</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 961433990</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/request-an-appointment</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 756828834 &gt; .m-text-align-left.text-align-left &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/request-an-appointment</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 600558752 &gt; .text-align-left.m-text-align-left &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/request-an-appointment</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 575521560 &gt; .m-text-align-left.text-align-left &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/request-an-appointment</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 941814213 &gt; .text-align-left.m-text-align-left &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/request-an-appointment</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 940956111 &gt; .m-text-align-left.text-align-left &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/request-an-appointment</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 248626097 &gt; .text-align-left &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/request-an-appointment</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 138214196 &gt; p &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/request-an-appointment</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>span[data-link-text=&quot;Request an Appointment&quot;]</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/dr-michel-samaha-m-d</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 961433990</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/dr-michel-samaha-m-d</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 254480409 &gt; h3 &gt; span</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 24.8pt (33px), font weight: bold). Expected contrast ratio of 3:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/dr-michel-samaha-m-d</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 953074511 &gt; h3 &gt; span</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 24.8pt (33px), font weight: bold). Expected contrast ratio of 3:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/dr-michel-samaha-m-d</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>.text-align-left &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/dr-michel-samaha-m-d</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 138214196 &gt; p &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/privacy-policy</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 961433990</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/privacy-policy</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 652204561 &gt; .t-size-19.m-size-18.size-20 &gt; .t-font-size-19.font-size-20.m-font-size-18</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/privacy-policy</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 858744271 &gt; .m-size-18.t-size-19.size-20 &gt; .m-font-size-18.font-size-20.t-font-size-19</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/privacy-policy</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 249524272 &gt; .m-size-18.t-size-19.size-20 &gt; .m-font-size-18.font-size-20.t-font-size-19</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/privacy-policy</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 687134862 &gt; .t-size-19.m-size-18.size-20 &gt; .t-font-size-19.font-size-20.m-font-size-18</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/privacy-policy</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 322509290 &gt; .m-size-18.t-size-19.size-20 &gt; .m-font-size-18.font-size-20.t-font-size-19</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/privacy-policy</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 554982908 &gt; .t-size-19.m-size-18.size-20 &gt; .t-font-size-19.font-size-20.m-font-size-18</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/privacy-policy</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>.text-align-left &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/privacy-policy</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 138214196 &gt; p &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/privacy-policy</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>span[data-link-text=&quot;Privacy Policy&quot;]</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/accessibility-statement</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 961433990</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/accessibility-statement</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 862652059 &gt; p:nth-child(1) &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/accessibility-statement</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 753009684 &gt; p:nth-child(1) &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/accessibility-statement</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>p:nth-child(7) &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/accessibility-statement</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>p:nth-child(10) &gt; strong:nth-child(2)</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/accessibility-statement</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>p:nth-child(16) &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/accessibility-statement</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>p:nth-child(19) &gt; strong:nth-child(2)</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/accessibility-statement</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>p:nth-child(26) &gt; strong:nth-child(2)</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/accessibility-statement</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>p:nth-child(29) &gt; strong:nth-child(2)</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/accessibility-statement</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>a[href=&quot;mailto:support@getdeardoc.com&quot;] &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/accessibility-statement</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>.text-align-left &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/accessibility-statement</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>#\31 138214196 &gt; p &gt; strong</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+
+          <tr>
+            <td class="nowrap">https://www.milfordpulmonary.com/accessibility-statement</td>
+            <td class="nowrap">color-contrast</td>
+            <td class="impact serious">serious</td>
+            <td class="desc">Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds</td>
+            <td class="target"><code>span[data-link-text=&quot;Accessibility Statement&quot;]</code></td>
+            <td class="fail">Fix any of the following:<br/>  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1</td>
+          </tr>
+        
+          </tbody>
+        </table>
+      </body>
+    </html>

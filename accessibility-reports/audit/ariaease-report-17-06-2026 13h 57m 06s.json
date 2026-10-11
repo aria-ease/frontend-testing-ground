@@ -1,0 +1,812 @@
+[
+  {
+    "URL": "https://www.milfordpulmonary.com",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 961433990"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 453208647"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 166697016"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 760944949 > .text-align-left.m-text-align-left > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 622867932 > .text-align-left.m-text-align-left > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 672870441 > .text-align-left.m-text-align-left > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 354345047 > .text-align-left.m-text-align-left > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 794362452 > .text-align-left.m-text-align-left > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 248626097 > .text-align-left > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 138214196 > p > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com",
+    "Rule": "frame-title",
+    "Impact": "serious",
+    "Description": "Ensure <iframe> and <frame> elements have an accessible name",
+    "Target": [
+      "#videobgframe-63bd85219866cc362278151f"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has no title attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/who-we-are",
+    "Rule": "aria-prohibited-attr",
+    "Impact": "serious",
+    "Description": "Ensure ARIA attributes are not prohibited for an element's role",
+    "Target": [
+      ".u_1827242899"
+    ],
+    "FailureSummary": "Fix all of the following:\n  aria-labelledby attribute cannot be used on a a with no valid role attribute."
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/who-we-are",
+    "Rule": "aria-prohibited-attr",
+    "Impact": "serious",
+    "Description": "Ensure ARIA attributes are not prohibited for an element's role",
+    "Target": [
+      ".u_1814356002"
+    ],
+    "FailureSummary": "Fix all of the following:\n  aria-labelledby attribute cannot be used on a a with no valid role attribute."
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/who-we-are",
+    "Rule": "aria-prohibited-attr",
+    "Impact": "serious",
+    "Description": "Ensure ARIA attributes are not prohibited for an element's role",
+    "Target": [
+      ".u_1476751572"
+    ],
+    "FailureSummary": "Fix all of the following:\n  aria-labelledby attribute cannot be used on a a with no valid role attribute."
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/who-we-are",
+    "Rule": "aria-prohibited-attr",
+    "Impact": "serious",
+    "Description": "Ensure ARIA attributes are not prohibited for an element's role",
+    "Target": [
+      ".u_1884420039"
+    ],
+    "FailureSummary": "Fix all of the following:\n  aria-labelledby attribute cannot be used on a a with no valid role attribute."
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/who-we-are",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 295574049 > .unav-top[role=\"menubar\"][data-auto=\"navigation-pages\"] > li[aria-haspopup=\"true\"][data-sub-nav-menu=\"true\"][data-depth=\"0\"]:nth-child(1) > .dmNavItemSelected.dmUDNavigationItem_010101717112[href$=\"who-we-are\"] > .nav-item-text[data-link-text=\"About\"][data-auto=\"page-text-style\"]"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/who-we-are",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 961433990"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/who-we-are",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 758417655"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/who-we-are",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 392597943"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/who-we-are",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 950346470"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/who-we-are",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 219559735"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/who-we-are",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 340602459 > .text"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/who-we-are",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 341215944"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/who-we-are",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 343640254"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/who-we-are",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 032773291"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 16.5pt (22px), font weight: bold). Expected contrast ratio of 3:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/who-we-are",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      ".text-align-left > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/who-we-are",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 138214196 > p > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/services",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 295574049 > .unav-top[role=\"menubar\"][data-auto=\"navigation-pages\"] > li[aria-haspopup=\"true\"][data-sub-nav-menu=\"true\"][data-depth=\"0\"]:nth-child(2) > .dmUDNavigationItem_010101325574.dmNavItemSelected[href$=\"services\"] > .nav-item-text[data-link-text=\"Services\"][data-auto=\"page-text-style\"]"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/services",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 961433990"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/services",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 249400262"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/services",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      ".text-align-left > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/services",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 138214196 > p > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/services",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "a[data-target-page-alias=\"services\"] > .nav-item-text[data-link-text=\"Services\"][data-auto=\"page-text-style\"]"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/new-patient-information",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 295574049 > .unav-top[role=\"menubar\"][data-auto=\"navigation-pages\"] > li[aria-haspopup=\"true\"][data-sub-nav-menu=\"true\"][data-depth=\"0\"]:nth-child(3) > .dmNavItemSelected.dmUDNavigationItem_010101345121[href$=\"new-patient-information\"] > .nav-item-text[data-link-text=\"New Patients\"][data-auto=\"page-text-style\"]"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/new-patient-information",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 961433990"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/new-patient-information",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 366332036"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/new-patient-information",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 658148817"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/new-patient-information",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      ".text-align-left > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/new-patient-information",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 138214196 > p > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/patient-resources",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 295574049 > .unav-top[role=\"menubar\"][data-auto=\"navigation-pages\"] > li[aria-haspopup=\"true\"][data-sub-nav-menu=\"true\"][data-depth=\"0\"]:nth-child(4) > .dmNavItemSelected.dmUDNavigationItem_010101976146[href$=\"patient-resources\"] > .nav-item-text[data-link-text=\"Patient Resources\"][data-auto=\"page-text-style\"]"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/patient-resources",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 961433990"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/patient-resources",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 201076952"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/patient-resources",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      ".text-align-left > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/patient-resources",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 138214196 > p > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/request-an-appointment",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 961433990"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/request-an-appointment",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 756828834 > .m-text-align-left.text-align-left > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/request-an-appointment",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 600558752 > .text-align-left.m-text-align-left > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/request-an-appointment",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 575521560 > .m-text-align-left.text-align-left > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/request-an-appointment",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 941814213 > .text-align-left.m-text-align-left > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/request-an-appointment",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 940956111 > .m-text-align-left.text-align-left > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 1.7 (foreground color: #70d6d8, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/request-an-appointment",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 248626097 > .text-align-left > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/request-an-appointment",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 138214196 > p > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/request-an-appointment",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "span[data-link-text=\"Request an Appointment\"]"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/dr-michel-samaha-m-d",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 961433990"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/dr-michel-samaha-m-d",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 254480409 > h3 > span"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 24.8pt (33px), font weight: bold). Expected contrast ratio of 3:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/dr-michel-samaha-m-d",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 953074511 > h3 > span"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 24.8pt (33px), font weight: bold). Expected contrast ratio of 3:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/dr-michel-samaha-m-d",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      ".text-align-left > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/dr-michel-samaha-m-d",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 138214196 > p > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/privacy-policy",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 961433990"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/privacy-policy",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 652204561 > .t-size-19.m-size-18.size-20 > .t-font-size-19.font-size-20.m-font-size-18"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/privacy-policy",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 858744271 > .m-size-18.t-size-19.size-20 > .m-font-size-18.font-size-20.t-font-size-19"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/privacy-policy",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 249524272 > .m-size-18.t-size-19.size-20 > .m-font-size-18.font-size-20.t-font-size-19"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/privacy-policy",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 687134862 > .t-size-19.m-size-18.size-20 > .t-font-size-19.font-size-20.m-font-size-18"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/privacy-policy",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 322509290 > .m-size-18.t-size-19.size-20 > .m-font-size-18.font-size-20.t-font-size-19"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/privacy-policy",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 554982908 > .t-size-19.m-size-18.size-20 > .t-font-size-19.font-size-20.m-font-size-18"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 15.0pt (20px), font weight: bold). Expected contrast ratio of 3:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/privacy-policy",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      ".text-align-left > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/privacy-policy",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 138214196 > p > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/privacy-policy",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "span[data-link-text=\"Privacy Policy\"]"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/accessibility-statement",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 961433990"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #ffffff, background color: #55bab4, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/accessibility-statement",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 862652059 > p:nth-child(1) > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/accessibility-statement",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 753009684 > p:nth-child(1) > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/accessibility-statement",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "p:nth-child(7) > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/accessibility-statement",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "p:nth-child(10) > strong:nth-child(2)"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/accessibility-statement",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "p:nth-child(16) > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/accessibility-statement",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "p:nth-child(19) > strong:nth-child(2)"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/accessibility-statement",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "p:nth-child(26) > strong:nth-child(2)"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/accessibility-statement",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "p:nth-child(29) > strong:nth-child(2)"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/accessibility-statement",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "a[href=\"mailto:support@getdeardoc.com\"] > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 2.31 (foreground color: #55bab4, background color: #ffffff, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/accessibility-statement",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      ".text-align-left > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/accessibility-statement",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "#\\31 138214196 > p > strong"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: bold). Expected contrast ratio of 4.5:1"
+  },
+  {
+    "URL": "https://www.milfordpulmonary.com/accessibility-statement",
+    "Rule": "color-contrast",
+    "Impact": "serious",
+    "Description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+    "Target": [
+      "span[data-link-text=\"Accessibility Statement\"]"
+    ],
+    "FailureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 4.01 (foreground color: #8ed6e4, background color: #2c6381, font size: 12.8pt (17px), font weight: normal). Expected contrast ratio of 4.5:1"
+  }
+]

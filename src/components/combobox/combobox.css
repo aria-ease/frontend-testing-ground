@@ -1,0 +1,9 @@
+#fruits-listbox.hide {
+    display: none;
+}
+#fruits-listbox.show {
+    display: block !important;
+}
+#fruits-listbox {
+    display: none;
+}

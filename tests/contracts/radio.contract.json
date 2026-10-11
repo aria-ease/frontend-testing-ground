@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "id": "docs.custom.contract.radio",
+    "version": "1.0.0",
+    "created": "11-02-2026",
+    "lastUpdated": "19-03-2026",
+    "description": "Simple fluent DSL example for radio custom policy",
+    "source": {
+      "apg": "https://www.w3.org/WAI/ARIA/apg/patterns/radio/",
+      "wcag": [
+        "2.2 AA"
+      ]
+    },
+    "W3CName": "Radio"
+  },
+  "selectors": {
+    "main": "[role=radiogroup]",
+    "radio": "[role=radio]",
+    "relative": "[role=radio]"
+  },
+  "static": [
+    {
+      "target": "radio",
+      "assertion": "toHaveAttribute",
+      "attribute": "aria-checked",
+      "expectedValue": "false",
+      "failureMessage": "",
+      "level": "required"
+    }
+  ],
+  "dynamic": [
+    {
+      "description": "Space checks an unchecked radio.",
+      "level": "required",
+      "orientation": "horizontal",
+      "action": [
+        {
+          "type": "keypress",
+          "target": "relative",
+          "key": "Space",
+          "relativeTarget": 1
+        }
+      ],
+      "assertions": [
+        {
+          "target": "relative",
+          "relativeTarget": 1,
+          "assertion": "toHaveAttribute",
+          "attribute": "aria-checked",
+          "expectedValue": "true",
+          "failureMessage": "Expected radio to have aria-checked='true' when checked."
+        }
+      ]
+    },
+    {
+      "description": "Click checks an unchecked radio.",
+      "level": "required",
+      "orientation": "horizontal",
+      "action": [
+        {
+          "type": "click",
+          "target": "relative",
+          "relativeTarget": 1
+        }
+      ],
+      "assertions": [
+        {
+          "target": "relative",
+          "relativeTarget": 1,
+          "assertion": "toHaveAttribute",
+          "attribute": "aria-checked",
+          "expectedValue": "true",
+          "failureMessage": "Expected radio to have aria-checked='true' when checked."
+        }
+      ]
+    },
+    {
+      "description": "Only one radio checked per time.",
+      "level": "required",
+      "orientation": "horizontal",
+      "action": [
+        {
+          "type": "keypress",
+          "target": "relative",
+          "key": "Space",
+          "relativeTarget": 2
+        }
+      ],
+      "assertions": [
+        {
+          "target": "relative",
+          "relativeTarget": 2,
+          "assertion": "toHaveAttribute",
+          "attribute": "aria-checked",
+          "expectedValue": "true",
+          "failureMessage": "Expected radio to have aria-checked='true' when checked."
+        },
+        {
+          "target": "relative",
+          "relativeTarget": 1,
+          "assertion": "toHaveAttribute",
+          "attribute": "aria-checked",
+          "expectedValue": "false",
+          "failureMessage": "Expected radio to have aria-checked='false' when unchecked."
+        }
+      ],
+      "setup": [
+        {
+          "type": "keypress",
+          "target": "relative",
+          "relativeTarget": 1,
+          "key": "Space"
+        }
+      ]
+    },
+    {
+      "description": "Arrow Down moves focus and checks next radio.",
+      "level": "required",
+      "orientation": "horizontal",
+      "action": [
+        {
+          "type": "keypress",
+          "target": "relative",
+          "key": "ArrowDown",
+          "relativeTarget": 1
+        }
+      ],
+      "assertions": [
+        {
+          "target": "relative",
+          "relativeTarget": 2,
+          "assertion": "toHaveAttribute",
+          "attribute": "aria-checked",
+          "expectedValue": "true",
+          "failureMessage": "Expected radio to have aria-checked='true' when checked."
+        },
+        {
+          "target": "relative",
+          "assertion": "toHaveFocus",
+          "relativeTarget": 2,
+          "failureMessage": "Expected radio at index 2 to have focus."
+        }
+      ]
+    }
+  ]
+}

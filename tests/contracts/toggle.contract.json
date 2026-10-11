@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "id": "docs.custom.contract.toggle",
+    "version": "1.0.0",
+    "created": "11-02-2026",
+    "lastUpdated": "19-03-2026",
+    "description": "Simple fluent DSL example for toggle custom policy",
+    "source": {
+      "apg": "https://www.w3.org/WAI/ARIA/apg/patterns/toggle/",
+      "wcag": [
+        "2.2 AA"
+      ]
+    },
+    "W3CName": "toggle"
+  },
+  "selectors": {
+    "main": "button[aria-pressed]",
+    "toggle": "button[aria-pressed]",
+    "relative": "button[aria-pressed]"
+  },
+  "static": [
+    {
+      "target": "toggle",
+      "assertion": "toHaveAttribute",
+      "attribute": "aria-pressed",
+      "expectedValue": "false",
+      "failureMessage": "",
+      "level": "required"
+    }
+  ],
+  "dynamic": [
+    {
+      "description": "Space presses an unpressed toggle.",
+      "level": "required",
+      "orientation": "horizontal",
+      "action": [
+        {
+          "type": "keypress",
+          "target": "relative",
+          "key": "Space",
+          "relativeTarget": 1
+        }
+      ],
+      "assertions": [
+        {
+          "target": "relative",
+          "relativeTarget": 1,
+          "assertion": "toHaveAttribute",
+          "attribute": "aria-pressed",
+          "expectedValue": "true",
+          "failureMessage": "Expected toggle to have aria-pressed='true' when pressed."
+        }
+      ]
+    },
+    {
+      "description": "Space unpresses a pressed toggle.",
+      "level": "required",
+      "orientation": "horizontal",
+      "action": [
+        {
+          "type": "keypress",
+          "target": "relative",
+          "key": "Space",
+          "relativeTarget": 1
+        }
+      ],
+      "assertions": [
+        {
+          "target": "relative",
+          "relativeTarget": 1,
+          "assertion": "toHaveAttribute",
+          "attribute": "aria-pressed",
+          "expectedValue": "false",
+          "failureMessage": "Expected toggle to have aria-pressed='false' when unpressed."
+        }
+      ],
+      "setup": [
+        {
+          "type": "keypress",
+          "target": "relative",
+          "relativeTarget": 1,
+          "key": "Enter"
+        }
+      ]
+    },
+    {
+      "description": "Click presses an unpressed toggle.",
+      "level": "required",
+      "orientation": "horizontal",
+      "action": [
+        {
+          "type": "click",
+          "target": "relative",
+          "relativeTarget": 1
+        }
+      ],
+      "assertions": [
+        {
+          "target": "relative",
+          "relativeTarget": 1,
+          "assertion": "toHaveAttribute",
+          "attribute": "aria-pressed",
+          "expectedValue": "true",
+          "failureMessage": "Expected toggle to have aria-pressed='true' when pressed."
+        }
+      ]
+    },
+    {
+      "description": "Click unpresses a pressed toggle.",
+      "level": "required",
+      "orientation": "horizontal",
+      "action": [
+        {
+          "type": "click",
+          "target": "relative",
+          "relativeTarget": 1
+        }
+      ],
+      "assertions": [
+        {
+          "target": "relative",
+          "relativeTarget": 1,
+          "assertion": "toHaveAttribute",
+          "attribute": "aria-pressed",
+          "expectedValue": "false",
+          "failureMessage": "Expected toggle to have aria-pressed='false' when unpressed."
+        }
+      ],
+      "setup": [
+        {
+          "type": "click",
+          "target": "relative",
+          "relativeTarget": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1037 @@
+URL,Rule,Impact,Description,Target,FailureSummary
+"https://refrigiwear1954.com/en","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","a[href$=""storia""] > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 52.5pt (70px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".rich-text__heading.rte.inline-richtext:nth-child(2)","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.0pt (24px), font weight: normal). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en","image-alt","critical","Ensure <img> elements have alternative text or a role of none or presentation","video[playsinline=""playsinline""][autoplay=""autoplay""][loop=""loop""]:nth-child(1) > img","Fix any of the following:
+  Element does not have an alt attribute
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text",".AF_grid-item-link[href$=""spring-summer""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text",".block-banner_JnYQRY-element > .AF_inner-content-banner-bg-adapt.w-full > .AF_grid-item-link[href$=""man-summer""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text",".AF_grid-item-link[href$=""woman-summer""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text",".block-media_jMyJVA-element > .AF_media-banner-link","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text",".AF_media-banner-link[href=""/en/pages/n12""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text",".block-media_xjTT9H-element > .AF_media-banner-link","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text",".AF_media-background > .flex","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text",".swiper-slide-duplicate[aria-label=""6 / 8""][data-swiper-slide-index=""5""] > a","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text",".swiper-slide-duplicate[aria-label=""7 / 8""][data-swiper-slide-index=""6""] > a","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text",".swiper-slide-duplicate[aria-label=""8 / 8""][data-swiper-slide-index=""7""] > a","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text",".swiper-slide[aria-label=""1 / 8""][data-swiper-slide-index=""0""]:nth-child(4) > a","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text",".swiper-slide-prev[aria-label=""2 / 8""][data-swiper-slide-index=""1""] > a","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text",".swiper-slide-active[aria-label=""3 / 8""][data-swiper-slide-index=""2""] > a","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text","div[aria-label=""4 / 8""] > a","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text","div[aria-label=""5 / 8""] > a","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text",".swiper-slide[aria-label=""6 / 8""][data-swiper-slide-index=""5""]:nth-child(9) > a","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text",".swiper-slide[aria-label=""7 / 8""][data-swiper-slide-index=""6""]:nth-child(10) > a","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text",".swiper-slide[aria-label=""8 / 8""][data-swiper-slide-index=""7""]:nth-child(11) > a","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text",".swiper-slide-duplicate[aria-label=""1 / 8""][data-swiper-slide-index=""0""] > a","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text",".swiper-slide-duplicate-prev[aria-label=""2 / 8""][data-swiper-slide-index=""1""] > a","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en","link-name","serious","Ensure links have discernible text",".swiper-slide-duplicate-active[aria-label=""3 / 8""][data-swiper-slide-index=""2""] > a","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/history","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/pages/history","link-name","serious","Ensure links have discernible text","a[href$=""#section-2""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/history","link-name","serious","Ensure links have discernible text",".button-link","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/history","link-name","serious","Ensure links have discernible text","a[href$=""#section-4""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/history","link-name","serious","Ensure links have discernible text","a[href$=""#section-5""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/history","link-name","serious","Ensure links have discernible text","a[href$=""#section-6""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/history","link-name","serious","Ensure links have discernible text","a[href$=""#section-7""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/history","link-name","serious","Ensure links have discernible text","a[href$=""#section-8""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/history","link-name","serious","Ensure links have discernible text","a[href$=""#section-9""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/history","link-name","serious","Ensure links have discernible text","a[href$=""#section-10""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/become-a-partner","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/pages/become-a-partner","link-name","serious","Ensure links have discernible text",".AF_grid-item-link","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/customer-care","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/pages/customer-care","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","a[href$=""help""]","Fix any of the following:
+  Element has insufficient color contrast of 1.01 (foreground color: #fcfcfc, background color: #fffefc, font size: 11.3pt (15px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/track-order","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/pages/returns","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_67cmdR-element > .AF_grid-item-content.h-full.flex-col > .AF_item-heading > h2 > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 32.8pt (43.75px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_67cmdR-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_TrCdah-element > .AF_grid-item-content.h-full.flex-col > .AF_item-heading > h5","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.8pt (25px), font weight: normal). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_TrCdah-element > .AF_grid-item-content.h-full.flex-col > .AF_item-subheading > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.01 (foreground color: #fcfcfc, background color: #fffefc, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_TrCdah-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_TrCdah-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > a[target=""_blank""]","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcff, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_KLiWaB-element > .AF_grid-item-content.h-full.flex-col > .AF_item-heading > h5","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.8pt (25px), font weight: normal). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_KLiWaB-element > .AF_grid-item-content.h-full.flex-col > .AF_item-subheading > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.01 (foreground color: #fcfcfc, background color: #fffefc, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_KLiWaB-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_e7iTXU-element > .AF_grid-item-content.h-full.flex-col > .AF_item-heading > h5","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.8pt (25px), font weight: normal). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_e7iTXU-element > .AF_grid-item-content.h-full.flex-col > .AF_item-subheading > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.01 (foreground color: #fcfcfc, background color: #fffefc, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_e7iTXU-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_qxXk3A-element > .AF_grid-item-content.h-full.flex-col > .AF_item-heading > h5","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.8pt (25px), font weight: normal). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_qxXk3A-element > .AF_grid-item-content.h-full.flex-col > .AF_item-subheading > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.01 (foreground color: #fcfcfc, background color: #fffefc, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_qxXk3A-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_qxXk3A-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > span > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_tHGBgw-element > .AF_grid-item-content.h-full.flex-col > .AF_item-heading > h2 > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 32.8pt (43.75px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_tHGBgw-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_QWiMA9-element > .AF_grid-item-content.h-full.flex-col > .AF_item-heading > h5","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.8pt (25px), font weight: normal). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_QWiMA9-element > .AF_grid-item-content.h-full.flex-col > .AF_item-subheading > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.01 (foreground color: #fcfcfc, background color: #fffefc, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_QWiMA9-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_QWiMA9-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > a[target=""_blank""]","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcff, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_XEenxX-element > .AF_grid-item-content.h-full.flex-col > .AF_item-heading > h5","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.8pt (25px), font weight: normal). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_XEenxX-element > .AF_grid-item-content.h-full.flex-col > .AF_item-subheading > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.01 (foreground color: #fcfcfc, background color: #fffefc, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_XEenxX-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_XEenxX-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > span > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_RmAWWA-element > .AF_grid-item-content.h-full.flex-col > .AF_item-heading > h5","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.8pt (25px), font weight: normal). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_RmAWWA-element > .AF_grid-item-content.h-full.flex-col > .AF_item-subheading > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.01 (foreground color: #fcfcfc, background color: #fffefc, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_RmAWWA-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_HpRqT6-element > .AF_grid-item-content.h-full.flex-col > .AF_item-heading > h5","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.8pt (25px), font weight: normal). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_HpRqT6-element > .AF_grid-item-content.h-full.flex-col > .AF_item-subheading > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.01 (foreground color: #fcfcfc, background color: #fffefc, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_HpRqT6-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/returns","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_HpRqT6-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > span > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/faq","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/policies/terms-of-service","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/collections/man-summer","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/collections/man-summer","link-name","serious","Ensure links have discernible text","a[data-product-view=""more-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/man-summer","link-name","serious","Ensure links have discernible text","a[data-product-view=""less-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/woman-summer","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/collections/woman-summer","link-name","serious","Ensure links have discernible text","a[data-product-view=""more-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/woman-summer","link-name","serious","Ensure links have discernible text","a[data-product-view=""less-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/summer-accessories","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/collections/summer-accessories","link-name","serious","Ensure links have discernible text","a[data-product-view=""more-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/summer-accessories","link-name","serious","Ensure links have discernible text","a[data-product-view=""less-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/products/gift-card","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/cart","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/collections/vr46-racing-team","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/collections/vr46-racing-team","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 30.0pt (40px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/collections/vr46-racing-team","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 15.0pt (20px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/collections/vr46-racing-team","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".mobile-facets__open-label.button-label.small-hide","Fix any of the following:
+  Element has insufficient color contrast of 1.01 (foreground color: #fdfdfd, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/collections/vr46-racing-team","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","label[for=""SortBy""]","Fix any of the following:
+  Element has insufficient color contrast of 1.01 (foreground color: #fdfdfd, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/collections/vr46-racing-team","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","#SortBy","Fix any of the following:
+  Element has insufficient color contrast of 1.01 (foreground color: #fdfdfd, background color: #ffffff, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/collections/vr46-racing-team","link-name","serious","Ensure links have discernible text","a[data-product-view=""more-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/vr46-racing-team","link-name","serious","Ensure links have discernible text","a[data-product-view=""less-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/n12","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_DDtmPJ-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_W94iyP-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_W94iyP-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-code_abjFJx-element > .AF_n12_button.AF_item_button.button--solid > a[href$=""n12-collection""]","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fcfcfc, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_rrMWXV-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_rrMWXV-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > em","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_ppj6H9-element > .AF_grid-item-content.h-full.flex-col > .AF_item-subheading > h4","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 22.5pt (30px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_EWhwf9-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_EWhwf9-element > .AF_grid-item-content.h-full.flex-col > .AF_item_button > .button--solid.uppercase.button","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fcfcfc, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_bHUWYY-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_bHUWYY-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > em:nth-child(1)","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_bHUWYY-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > em:nth-child(2)","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_UMFxpQ-element > .AF_grid-item-content.h-full.flex-col > .AF_item-subheading > h4","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 22.5pt (30px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_pUbjin-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_pUbjin-element > .AF_grid-item-content.h-full.flex-col > .AF_item_button > .button--solid.uppercase.button","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fcfcfc, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-code_iWay69-element > .AF_n12_button.AF_item_button.button--solid > a[href$=""n12-collection""]","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fcfcfc, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_kPQrwr-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_kPQrwr-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > em","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_JinaHC-element > .AF_grid-item-content.h-full.flex-col > .AF_item-subheading > h4","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 22.5pt (30px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_qckn7w-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_qckn7w-element > .AF_grid-item-content.h-full.flex-col > .AF_item_button > .button--solid.uppercase.button","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fcfcfc, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_daRDnm-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_daRDnm-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > em:nth-child(1)","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_daRDnm-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > em:nth-child(2)","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_Jhpk3t-element > .AF_grid-item-content.h-full.flex-col > .AF_item-subheading > h4","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 22.5pt (30px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_TVDdXJ-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_TVDdXJ-element > .AF_grid-item-content.h-full.flex-col > .AF_item_button > .button--solid.uppercase.button","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fcfcfc, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_L6yVdM-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_L6yVdM-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > em:nth-child(1)","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_L6yVdM-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > em:nth-child(2)","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_grwe4y-element > .AF_grid-item-content.h-full.flex-col > .AF_item-subheading > h4","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 22.5pt (30px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_BnYgfK-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_BnYgfK-element > .AF_grid-item-content.h-full.flex-col > .AF_item_button > .button--solid.uppercase.button","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fcfcfc, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_7hyq9h-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_7hyq9h-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > em:nth-child(1)","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_7hyq9h-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > em:nth-child(2)","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_7hyq9h-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > em:nth-child(3)","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_gABxHT-element > .AF_grid-item-content.h-full.flex-col > .AF_item-subheading > h4","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 22.5pt (30px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_FabqCh-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_FabqCh-element > .AF_grid-item-content.h-full.flex-col > .AF_item_button > .button--solid.uppercase.button","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fcfcfc, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_3gCqbK-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_3gCqbK-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > em","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_iTpAbj-element > .AF_grid-item-content.h-full.flex-col > .AF_item-subheading > h4","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 22.5pt (30px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_CwG3Pp-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_CwG3Pp-element > .AF_grid-item-content.h-full.flex-col > .AF_item_button > .button--solid.uppercase.button","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fcfcfc, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-code_HD9dex-element > .AF_n12_button.AF_item_button.button--solid > a[href$=""n12-collection""]","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fcfcfc, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_9Kzh49-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_9Kzh49-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > em","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_xqxMwA-element > .AF_grid-item-content.h-full.flex-col > .AF_item-subheading > h4","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 22.5pt (30px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_UjJRdp-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_UjJRdp-element > .AF_grid-item-content.h-full.flex-col > .AF_item_button > .button--solid.uppercase.button","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fcfcfc, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_C7QXVF-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_C7QXVF-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > em:nth-child(1)","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_C7QXVF-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > em:nth-child(2)","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_C7QXVF-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > em:nth-child(3)","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","em:nth-child(4)","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_6hV3BP-element > .AF_grid-item-content.h-full.flex-col > .AF_item-subheading > h4","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 22.5pt (30px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_yXFzW3-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_yXFzW3-element > .AF_grid-item-content.h-full.flex-col > .AF_item_button > .button--solid.uppercase.button","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fcfcfc, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_hyzHmn-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_hyzHmn-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > em:nth-child(1)","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_hyzHmn-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > em:nth-child(2)","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_AmqH6D-element > .AF_grid-item-content.h-full.flex-col > .AF_item-subheading > h4","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 22.5pt (30px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_mxPtYm-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_mxPtYm-element > .AF_grid-item-content.h-full.flex-col > .AF_item_button > .button--solid.uppercase.button","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fcfcfc, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_NUTPQc-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_nfwQWY-element > .AF_grid-item-content.h-full.flex-col > .AF_item-subheading > h4","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 22.5pt (30px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_V4FmcT-element > .AF_grid-item-content.h-full.flex-col > .AF_item-paragraph > p > strong","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #fcfcfc, background color: #ffffff, font size: 18.0pt (24px), font weight: bold). Expected contrast ratio of 3:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-banner_V4FmcT-element > .AF_grid-item-content.h-full.flex-col > .AF_item_button > .button--solid.uppercase.button","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fcfcfc, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".block-code_kDmUQx-element > .AF_n12_button.AF_item_button.button--solid > a[href$=""n12-collection""]","Fix any of the following:
+  Element has insufficient color contrast of 1.02 (foreground color: #ffffff, background color: #fcfcfc, font size: 11.3pt (15px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".iub-p:nth-child(1)","Fix any of the following:
+  Element has insufficient color contrast of 1.17 (foreground color: #ffffff, background color: #ededed, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".iubenda-privacy-policy-link","Fix any of the following:
+  Element has insufficient color contrast of 1.17 (foreground color: #ffffff, background color: #ededed, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds","strong[data-iub-role=""purposes_emphasis""]","Fix any of the following:
+  Element has insufficient color contrast of 1.17 (foreground color: #ffffff, background color: #ededed, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".iubenda-cs-cookie-policy-lnk","Fix any of the following:
+  Element has insufficient color contrast of 1.17 (foreground color: #ffffff, background color: #ededed, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".iub-p:nth-child(2)","Fix any of the following:
+  Element has insufficient color contrast of 1.17 (foreground color: #ffffff, background color: #ededed, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".iub-p:nth-child(4)","Fix any of the following:
+  Element has insufficient color contrast of 1.17 (foreground color: #ffffff, background color: #ededed, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".iub-p:nth-child(5)","Fix any of the following:
+  Element has insufficient color contrast of 1.17 (foreground color: #ffffff, background color: #ededed, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".iub-p:nth-child(5) > b","Fix any of the following:
+  Element has insufficient color contrast of 1.17 (foreground color: #ffffff, background color: #ededed, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".iub-p:nth-child(5) > .iubenda-cs-preferences-link[data-iub-enabled=""1""]","Fix any of the following:
+  Element has insufficient color contrast of 1.17 (foreground color: #ffffff, background color: #ededed, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".iubenda-cs-customize-btn","Fix any of the following:
+  Element has insufficient color contrast of 1.14 (foreground color: #ffffff, background color: #efefef, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".iubenda-cs-reject-btn","Fix any of the following:
+  Element has insufficient color contrast of 1.1 (foreground color: #ffffff, background color: #edf5fc, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","color-contrast","serious","Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",".iubenda-cs-accept-btn","Fix any of the following:
+  Element has insufficient color contrast of 1.1 (foreground color: #ffffff, background color: #edf5fc, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+"https://refrigiwear1954.com/en/pages/n12","link-name","serious","Ensure links have discernible text",".block-banner_bdK6Cp-element > .AF_grid-item-content.h-full.flex-col > .AF_link-media[rel=""nofollow""][target=""_blank""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/n12","link-name","serious","Ensure links have discernible text",".block-banner_CTG76k-element > .AF_grid-item-content.h-full.flex-col > .AF_link-media[rel=""nofollow""][target=""_blank""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/n12","link-name","serious","Ensure links have discernible text",".block-banner_BVqnaQ-element > .AF_grid-item-content.h-full.flex-col > .AF_link-media[rel=""nofollow""][target=""_blank""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/n12","link-name","serious","Ensure links have discernible text",".block-banner_yCK436-element > .AF_grid-item-content.h-full.flex-col > .AF_link-media[rel=""nofollow""][target=""_blank""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/n12","link-name","serious","Ensure links have discernible text",".block-banner_QWhRR9-element > .AF_grid-item-content.h-full.flex-col > .AF_link-media[rel=""nofollow""][target=""_blank""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/n12","link-name","serious","Ensure links have discernible text",".block-banner_xhWnXK-element > .AF_grid-item-content.h-full.flex-col > .AF_link-media[rel=""nofollow""][target=""_blank""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/n12","link-name","serious","Ensure links have discernible text",".block-banner_NcAeQi-element > .AF_grid-item-content.h-full.flex-col > .AF_link-media[rel=""nofollow""][target=""_blank""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/n12","link-name","serious","Ensure links have discernible text",".block-banner_ePD398-element > .AF_grid-item-content.h-full.flex-col > .AF_link-media[rel=""nofollow""][target=""_blank""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/n12","link-name","serious","Ensure links have discernible text",".block-banner_YnQfWy-element > .AF_grid-item-content.h-full.flex-col > .AF_link-media[rel=""nofollow""][target=""_blank""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/n12","link-name","serious","Ensure links have discernible text",".block-banner_BrPtCk-element > .AF_grid-item-content.h-full.flex-col > .AF_link-media[rel=""nofollow""][target=""_blank""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/pages/n12","link-name","serious","Ensure links have discernible text",".block-banner_KUUG9T-element > .AF_grid-item-content.h-full.flex-col > .AF_link-media[rel=""nofollow""][target=""_blank""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/icons","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/collections/icons","link-name","serious","Ensure links have discernible text","a[data-product-view=""more-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/icons","link-name","serious","Ensure links have discernible text","a[data-product-view=""less-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/men-s-light-jackets-bombers","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/collections/men-s-light-jackets-bombers","link-name","serious","Ensure links have discernible text","a[data-product-view=""more-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/men-s-light-jackets-bombers","link-name","serious","Ensure links have discernible text","a[data-product-view=""less-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/men-s-pullovers-sweaters","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/collections/men-s-pullovers-sweaters","link-name","serious","Ensure links have discernible text","a[data-product-view=""more-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/men-s-pullovers-sweaters","link-name","serious","Ensure links have discernible text","a[data-product-view=""less-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/men-s-polo-t-shirts-shirts","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/collections/men-s-polo-t-shirts-shirts","link-name","serious","Ensure links have discernible text","a[data-product-view=""more-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/men-s-polo-t-shirts-shirts","link-name","serious","Ensure links have discernible text","a[data-product-view=""less-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/men-s-trousers-shorts","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/collections/men-s-trousers-shorts","link-name","serious","Ensure links have discernible text","a[data-product-view=""more-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/men-s-trousers-shorts","link-name","serious","Ensure links have discernible text","a[data-product-view=""less-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/women-s-summer-jackets-coats","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/collections/women-s-summer-jackets-coats","link-name","serious","Ensure links have discernible text","a[data-product-view=""more-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/women-s-summer-jackets-coats","link-name","serious","Ensure links have discernible text","a[data-product-view=""less-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/women-s-sweatshirt","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/collections/women-s-sweatshirt","link-name","serious","Ensure links have discernible text","a[data-product-view=""more-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/women-s-sweatshirt","link-name","serious","Ensure links have discernible text","a[data-product-view=""less-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/women-s-shorts","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/collections/women-s-shorts","link-name","serious","Ensure links have discernible text","a[data-product-view=""more-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/women-s-shorts","link-name","serious","Ensure links have discernible text","a[data-product-view=""less-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/women-s-t-shirts-polo","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/collections/women-s-t-shirts-polo","link-name","serious","Ensure links have discernible text","a[data-product-view=""more-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/women-s-t-shirts-polo","link-name","serious","Ensure links have discernible text","a[data-product-view=""less-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/men-s-light-summer-jackets","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/collections/men-s-light-summer-jackets","link-name","serious","Ensure links have discernible text","a[data-product-view=""more-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/men-s-light-summer-jackets","link-name","serious","Ensure links have discernible text","a[data-product-view=""less-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/women-s-summer-jackets","button-name","critical","Ensure buttons have discernible text","#search_item_K4Y8df > drawer-opener > .header__icon--search.header__icon","Fix any of the following:
+  Element does not have inner text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute
+  Element does not have an implicit (wrapped) <label>
+  Element does not have an explicit <label>
+  Element's default semantics were not overridden with role=""none"" or role=""presentation"""
+"https://refrigiwear1954.com/en/collections/women-s-summer-jackets","link-name","serious","Ensure links have discernible text","a[data-product-view=""more-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
+"https://refrigiwear1954.com/en/collections/women-s-summer-jackets","link-name","serious","Ensure links have discernible text","a[data-product-view=""less-product""]","Fix all of the following:
+  Element is in tab order and does not have accessible text
+
+Fix any of the following:
+  Element does not have text that is visible to screen readers
+  aria-label attribute does not exist or is empty
+  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+  Element has no title attribute"
