@@ -1,4 +1,4 @@
-import { createContract } from "aria-ease";
+import { createContract } from "aria-ease/contract";
 
 export const radioContract = createContract("radio", (c) => {
     c.meta({
