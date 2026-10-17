@@ -1,4 +1,4 @@
-import { createContract } from "aria-ease";
+import { createContract } from "aria-ease/contract";
 
 export const checkboxContract = createContract("checkbox", (c) => {
     c.meta({
